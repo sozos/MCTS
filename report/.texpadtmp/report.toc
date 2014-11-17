@@ -1,0 +1,22 @@
+\contentsline {section}{\numberline {1}Introduction}{2}{section.1}
+\contentsline {subsection}{\numberline {1.1}Background}{2}{subsection.1.1}
+\contentsline {subsection}{\numberline {1.2}Organisation of report}{2}{subsection.1.2}
+\contentsline {section}{\numberline {2}Monte Carlo Tree Search}{2}{section.2}
+\contentsline {subsection}{\numberline {2.1}Overview}{2}{subsection.2.1}
+\contentsline {subsection}{\numberline {2.2}The 4 Phases}{4}{subsection.2.2}
+\contentsline {subsubsection}{\numberline {2.2.1}Selection}{4}{subsubsection.2.2.1}
+\contentsline {subsubsection}{\numberline {2.2.2}Expansion}{4}{subsubsection.2.2.2}
+\contentsline {subsubsection}{\numberline {2.2.3}Simulation}{4}{subsubsection.2.2.3}
+\contentsline {subsubsection}{\numberline {2.2.4}Backpropagation}{4}{subsubsection.2.2.4}
+\contentsline {subsection}{\numberline {2.3}Exploration vs. Exploitation}{4}{subsection.2.3}
+\contentsline {subsubsection}{\numberline {2.3.1}Upper Confidence Bound}{5}{subsubsection.2.3.1}
+\contentsline {subsubsection}{\numberline {2.3.2}Upper Confidence Bound for Trees}{5}{subsubsection.2.3.2}
+\contentsline {subsection}{\numberline {2.4}Extensions to MCTS}{6}{subsection.2.4}
+\contentsline {subsubsection}{\numberline {2.4.1}Parallelization}{6}{subsubsection.2.4.1}
+\contentsline {subsubsection}{\numberline {2.4.2}Re-using simulation branches}{6}{subsubsection.2.4.2}
+\contentsline {subsubsection}{\numberline {2.4.3}Opponent Modelling}{7}{subsubsection.2.4.3}
+\contentsline {section}{\numberline {3}Texas Hold'em Poker}{7}{section.3}
+\contentsline {subsection}{\numberline {3.1}Terminologies and rules}{7}{subsection.3.1}
+\contentsline {subsection}{\numberline {3.2}Poker as a problem domain}{8}{subsection.3.2}
+\contentsline {section}{\numberline {4}Implementation}{9}{section.4}
+\contentsline {section}{\numberline {5}Conclusion}{10}{section.5}

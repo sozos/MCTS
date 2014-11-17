@@ -1,0 +1,58 @@
+This is BibTeX, Version 0.99d (TeX Live 2013)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: report.aux
+The style file: ieeetr.bst
+Database file #1: ../report.bib
+Warning--empty school in Chaslot2010
+Warning--empty journal in Browne2012
+Warning--empty journal in Kocsis
+Warning--empty year in Kocsis
+Warning--empty journal in Chaslot
+Warning--empty year in Chaslot
+Warning--empty journal in Maitrepierre
+Warning--empty year in Maitrepierre
+Warning--empty journal in Kleij2010
+Warning--empty school in Johanson2007
+Warning--empty journal in Sandholm2010
+You've used 9 entries,
+            1876 wiz_defined-function locations,
+            525 strings with 4784 characters,
+and the built_in function-call counts, 1878 in all, are:
+= -- 162
+> -- 95
+< -- 0
++ -- 36
+- -- 27
+* -- 147
+:= -- 297
+add.period$ -- 9
+call.type$ -- 9
+change.case$ -- 7
+chr.to.int$ -- 0
+cite$ -- 20
+duplicate$ -- 95
+empty$ -- 173
+format.name$ -- 27
+if$ -- 422
+int.to.chr$ -- 0
+int.to.str$ -- 9
+missing$ -- 7
+newline$ -- 32
+num.names$ -- 9
+pop$ -- 41
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 43
+stack$ -- 0
+substring$ -- 75
+swap$ -- 21
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 11
+while$ -- 18
+width$ -- 10
+write$ -- 75
+(There were 11 warnings)

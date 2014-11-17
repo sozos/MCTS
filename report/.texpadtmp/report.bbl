@@ -1,0 +1,42 @@
+\begin{thebibliography}{1}
+
+\bibitem{Chaslot2010}
+G.~M. J.-b. Chaslot, {\em {Monte-Carlo Tree Search}}.
+\newblock PhD thesis, 2010.
+
+\bibitem{Browne2012}
+C.~Browne, E.~Powley, D.~Whitehouse, S.~Lucas, S.~Member, P.~I. Cowling,
+  P.~Rohlfshagen, S.~Tavener, D.~Perez, S.~Samothrakis, and S.~Colton, ``{A
+  Survey of Monte Carlo Tree Search Methods},'' vol.~4, no.~1, pp.~1--49, 2012.
+
+\bibitem{Auer2002}
+P.~Auer, N.~Cesa-Bianchi, and P.~Fischer, ``{Finite-time Analysis of the
+  Multiarmed Bandit Problem},'' {\em Machine Learning}, no.~47, pp.~235--256,
+  2002.
+
+\bibitem{Kocsis}
+L.~Kocsis, C.~Szepesv, and J.~Willemson, ``{Improved Monte-Carlo Search},''
+  no.~1.
+
+\bibitem{Chaslot}
+G.~M. J.-b. Chaslot, M.~H.~M. Winands, and H.~J. V.~D. Herik, ``{Parallel
+  Monte-Carlo Tree Search},''
+
+\bibitem{Maitrepierre}
+R.~Maitrepierre, J.~Mary, and R.~Munos, ``{Adaptive play in Texas Hold ’ em
+  Poker},''
+
+\bibitem{Kleij2010}
+A.~van~der Kleij, ``{Monte Carlo Tree Search and Opponent Modeling through
+  Player Clustering in no-limit Texas Hold ’ em Poker},'' no.~August, 2010.
+
+\bibitem{Johanson2007}
+M.~B. Johanson, {\em {Robust Strategies and Counter-Strategies: Building a
+  Champion Level Computer Poker Player}}.
+\newblock PhD thesis, 2007.
+
+\bibitem{Sandholm2010}
+T.~Sandholm, ``{The State of Solving Large Incomplete-Information Games, and
+  Application to Poker},'' pp.~13--32, 2010.
+
+\end{thebibliography}

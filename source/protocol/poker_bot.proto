@@ -1,0 +1,70 @@
+package poker_bot;
+
+message Action {
+  enum Type {
+    FOLD = 0;
+    CALL = 1;
+    RAISE = 2;
+    CHECK = 3;
+  }
+  required Type type = 1 [default = FOLD];
+  
+  // used for RAISE:
+  optional int32 amount = 2 [default = 0];
+}
+
+message Event {
+  enum Type {
+    JOIN = 0;
+    NEW_ROUND = 1;
+    BUTTON = 2;
+    BIG_BLIND = 3;
+    SMALL_BLIND = 4;
+    DEAL = 5;
+    FLOP = 6;
+    TURN = 7;
+    RIVER = 8;
+    ACTION = 9;
+    ADJUST_CREDITS = 10;
+    WIN = 11;
+    END_OF_ROUND = 12;
+    QUIT = 13;
+    BAD_BOT = 14;
+    YOUR_TURN = 15;
+  }
+  required Type type = 1;
+  
+  // used for JOIN, BUTTON, BIG_BLIND, SMALL_BLIND, QUIT:
+  optional uint32 player_id = 2;
+  
+  // used for JOIN:
+  optional uint32 credits = 3;
+  
+  // used for ADJUST_CREDITS:
+  optional int32 amount = 4;
+  
+  // used for DEAL, FLOP
+  message Card {
+    enum Suit {
+      DIAMONDS = 0;
+      SPADES = 1;
+      HEARTS = 2;
+      CLUBS = 3;
+    }
+    required int32 value = 1;
+    required Suit suit = 2;
+  }
+  repeated Card cards = 5;
+  
+  // used for TURN, RIVER:
+  optional Card card = 6;
+  
+  // used for ACTION, BAD_BOT:
+  optional Action action = 7;
+  
+  // used for WIN:
+  optional uint32 rank = 8;
+  
+  // used for BAD_BOT:
+  optional string message = 10;
+}

@@ -1,0 +1,6 @@
+\beamer@endinputifotherversion {3.26pt}
+\beamer@sectionintoc {1}{Motivation}{2}{0}{1}
+\beamer@sectionintoc {2}{Introduction to Monte Carlo Tree Search}{4}{0}{2}
+\beamer@sectionintoc {3}{MCTS Details}{12}{0}{3}
+\beamer@sectionintoc {4}{Application}{23}{0}{4}
+\beamer@sectionintoc {5}{The End}{27}{0}{5}
